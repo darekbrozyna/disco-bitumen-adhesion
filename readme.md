@@ -6,14 +6,17 @@ The script was written in [Wolfram Mathematica 10](https://www.wolfram.com/mathe
 <p align="center">
   <img src="cv-pipeline.jpg"/>
 </p>
+
 ## Initialisation
 First run the <code>init.nb</code>. Modify the <code>absolutePath</code> variable so that it points to the location of the cloned repo. Then select <code>Evaluation >> Evaluate notebook</code>.
 ## Single file processing
 In order to use the <code>single-file.nb</code> you need to first evaluate <code>init.nb</code> which contains all the procedures, <code>sample</code> variable holds which test image to  in string format. The pipelane variables were calibrated for this particular sample set which is in <code>sample/</code> directory. In order to evaluate a single file select <code>Evaluation >> Evaluate notebook</code>.
 ### Example result
+
 <p align="center">
-  <img src="sample-result.png"/>
+  <img width="60%" src="sample-result.png"/>
 </p>
+
 ## Batch processing
 In order to use the <code>batch.nb</code> you need to first evaluate <code>init.nb</code>. Set the <code>start</code> and <code>stop</code> parameters pointing to the range of files designated for processing. In order to start the batch process select <code>Evaluation >> Evaluate notebook</code>.
 ## Debugging/calibration
