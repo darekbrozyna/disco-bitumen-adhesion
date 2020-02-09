@@ -4,7 +4,7 @@ The script was written in [Wolfram Mathematica 10](https://www.wolfram.com/mathe
 [Assessment of Polyethylen-Modified Bitumen Adhesion Using Computer Image Analysis](https://www.researchgate.net/publication/313321283_Assessment_of_Polyethylen-Modified_Bitumen_Adhesion_Using_Computer_Image_Analysis)
 ### Pipeline
 <p align="center">
-  <img src="cv-pipeline.jpg"/>
+  <img width="70%" src="cv-pipeline.jpg"/>
 </p>
 
 ## Initialisation
@@ -14,7 +14,7 @@ In order to use the <code>single-file.nb</code> you need to first evaluate <code
 ### Example result
 
 <p align="center">
-  <img width="60%" src="sample-result.png"/>
+  <img width="70%" src="sample-result.png"/>
 </p>
 
 ## Batch processing
